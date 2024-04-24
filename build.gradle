@@ -1,24 +1,26 @@
 plugins {
-    id 'java-library'
-    id 'io.qameta.allure' version '2.10.0'
+    id 'java'
+    id 'io.qameta.allure' version '2.9.6'
 }
-
-group 'qa.guru.allure'
-version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
+def allureVersion = "2.18.1",
+    selenideVersion = "6.6.4",
+    junitVersion = "5.8.2",
+    slf4jVersion = "1.7.32"
+
 allure {
     report {
-        version.set("2.18.1")
+        version.set(allureVersion)
     }
     adapter {
         aspectjWeaver.set(true)
         frameworks {
             junit5 {
-                adapterVersion.set("2.18.1")
+                adapterVersion.set(allureVersion)
             }
         }
     }
@@ -26,12 +28,20 @@ allure {
 
 dependencies {
     testImplementation(
-            'org.junit.jupiter:junit-jupiter:5.8.1',
-            'io.qameta.allure:allure-selenide:2.18.1',
-            'com.codeborne:selenide:6.19.0'
+            "com.codeborne:selenide:$selenideVersion",
+            "io.qameta.allure:allure-selenide:$allureVersion",
+            "org.junit.jupiter:junit-jupiter:$junitVersion",
+            "org.slf4j:slf4j-simple:$slf4jVersion"
     )
 }
 
-test {
+tasks.withType(Test) {
     useJUnitPlatform()
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
 }
