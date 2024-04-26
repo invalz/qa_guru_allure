@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4058653d-ee1a-46e9-8817-c100b92d8b26" name="Changes" comment="update gradle version">
+    <list default="true" id="4058653d-ee1a-46e9-8817-c100b92d8b26" name="Changes" comment="update aspectj version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -254,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714138514324</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update aspectj version">
+      <created>1714154629485</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714154629486</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update aspectj version">
+      <created>1714154853556</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714154853556</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,7 +287,8 @@
     <MESSAGE value="delete search test" />
     <MESSAGE value="update allureVersion" />
     <MESSAGE value="update gradle version" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gradle version" />
+    <MESSAGE value="update aspectj version" />
+    <option name="LAST_COMMIT_MESSAGE" value="update aspectj version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
