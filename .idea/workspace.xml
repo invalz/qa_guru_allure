@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4058653d-ee1a-46e9-8817-c100b92d8b26" name="Changes" comment="update allureVersion">
+    <list default="true" id="4058653d-ee1a-46e9-8817-c100b92d8b26" name="Changes" comment="update gradle version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714133008555</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update gradle version">
+      <created>1714138514324</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714138514324</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +272,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="delete search test" />
     <MESSAGE value="update allureVersion" />
-    <option name="LAST_COMMIT_MESSAGE" value="update allureVersion" />
+    <MESSAGE value="update gradle version" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gradle version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
