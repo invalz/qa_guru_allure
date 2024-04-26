@@ -11,6 +11,7 @@ def allureVersion = "2.18.1",
     selenideVersion = "6.6.4",
     junitVersion = "5.8.2",
     slf4jVersion = "1.7.32"
+    aspectj = "1.9.22"
 
 allure {
     report {
@@ -32,7 +33,7 @@ dependencies {
             "io.qameta.allure:allure-selenide:$allureVersion",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "org.slf4j:slf4j-simple:$slf4jVersion",
-            "org.aspectj:aspectjweaver:1.9.22"
+            "org.aspectj:aspectjweaver:$aspectj"
     )
 }
 
