@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4058653d-ee1a-46e9-8817-c100b92d8b26" name="Changes" comment="update aspectj version">
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/metal/archives/tests/RegistrationFormTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/metal/archives/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/img/1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/metal/archives/tests/Base.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +94,8 @@
       <recent name="metal.archives" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.metal_archives_test [allureServe]">
-    <configuration name="LabelTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RegistrationFormTest.successfulTest (1)">
+    <configuration name="RegistrationFormTest.successfulTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -104,7 +108,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;qa.guru.allure.LabelTest&quot;" />
+            <option value="&quot;metal.archives.tests.RegistrationFormTest.successfulTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -114,7 +118,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StepsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationFormTest.successfulTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -127,7 +131,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;qa.guru.allure.StepsTest&quot;" />
+            <option value="&quot;tests.demoqa.RegistrationFormTest.successfulTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationFormTest.successfulTest (1)" />
+        <item itemvalue="Gradle.RegistrationFormTest.successfulTest" />
         <item itemvalue="Gradle.metal_archives_test [allureServe]" />
         <item itemvalue="Gradle.metal_archives_test [allureReport]" />
         <item itemvalue="Gradle.metal_archives_test [test]" />
-        <item itemvalue="Gradle.LabelTest" />
-        <item itemvalue="Gradle.StepsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714154853556</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update aspectj version">
+      <created>1714154982775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714154982775</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
