@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4058653d-ee1a-46e9-8817-c100b92d8b26" name="Changes" comment="add registration test and test base">
-      <change afterPath="$PROJECT_DIR$/src/test/java/properties/SystemPropertiesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="4058653d-ee1a-46e9-8817-c100b92d8b26" name="Changes" comment="update test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -287,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714250785964</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add new tests and tasks to gradle">
+      <created>1714504197491</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714504197491</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update test">
+      <created>1714508102790</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714508102790</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,7 +318,9 @@
     <MESSAGE value="update gradle version" />
     <MESSAGE value="update aspectj version" />
     <MESSAGE value="add registration test and test base" />
-    <option name="LAST_COMMIT_MESSAGE" value="add registration test and test base" />
+    <MESSAGE value="add new tests and tasks to gradle" />
+    <MESSAGE value="update test" />
+    <option name="LAST_COMMIT_MESSAGE" value="update test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
