@@ -54,6 +54,6 @@ public class SystemPropertiesTests {
     @Test
     @Tag("hello")
     void someTest7(){
-        System.out.println("Hello + " + System.getProperty("text"));
+        System.out.println("Hello " + System.getProperty("text"));
     }
 }
