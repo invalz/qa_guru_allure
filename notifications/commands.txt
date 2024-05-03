@@ -1,0 +1,14 @@
+Telegram bot token 6954864001:AAGyQa5uHw-rvGA_fPYmYVGyYkcmb4QY8LY
+Chat id -1002136860743
+Private id 260222993
+
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id": "-1002136860743", "text": «Шо вы головы» , "disable_notification": false}’ \
+     https://api.telegram.org/bot6954864001:AAGyQa5uHw-rvGA_fPYmYVGyYkcmb4QY8LY/sendMessage
+
+java \
+     "-DconfigFile=notifications/telegram.json" \
+     -jar allure-notifications-4.1.jar
+
+      java "-DconfigFile=notifications/telegram.json" -jar allure-notifications-4.6.1.jar
