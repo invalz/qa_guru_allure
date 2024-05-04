@@ -12,3 +12,5 @@ java \
      -jar allure-notifications-4.1.jar
 
       java "-DconfigFile=notifications/telegram.json" -jar allure-notifications-4.6.1.jar
+
+      https://jenkins.autotests.cloud/job/qa_guru_13_12_allure_notification/configure
